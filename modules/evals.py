@@ -29,11 +29,11 @@ def meetings( kind ):
     return 'All ' + kind + ' meetings'
 
 @bp.route('/projects')
-def projects:
+def projects():
     return 'projects'
 
 @bp.route('/contributions')
-def contributions:
+def contributions():
     return '/contributions'
 
 @bp.route('/overview')
